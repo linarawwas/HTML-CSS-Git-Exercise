@@ -1,1 +1,35 @@
-/* Try different box model properties below */
+.site-wrapper{
+    background-color: rgb(172, 163, 163);
+}
+.site-header p {
+color: #ffffff;
+margin-bottom: 0.1em;
+}
+.site-header__title {
+    color: white;
+}
+
+.site-header{
+    margin:0;
+    background-color: rgb(72, 72, 217);
+}
+.site-footer p {
+    font-size: 12px;
+    text-align: center;
+}
+.message{
+    margin:10px;
+    background-color: white;
+}
+.message:last{
+    border-color: rgb(255, 238, 0);
+    border: 5px 10px 0 0;
+    box-shadow: 4px 4px 0 #dba944 ;
+}
+time > message__time{
+    text-align: right;
+    color: rgb(70, 69, 69);
+}
+.message__author{
+    color: rgb(55, 53, 53);
+}
