@@ -1,1 +1,32 @@
 /* Add your CSS code below */
+a{
+    color: #ff00000000;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  .message__time, message__time--old {
+    font-size: 0.9rem;
+  }
+  .message--unread{
+    border-left: 6px solid hwb(240 0% 0%);
+  }
+.first-message{
+    opacity: 0.5;
+}
+.messages{
+  line-height: 2.5;
+}

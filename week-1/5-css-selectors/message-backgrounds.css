@@ -1,1 +1,9 @@
-/* Add your CSS code below */
+.first-message{
+    background-color: rgba(247, 12, 43, 0.969);
+}
+.second-message{
+    background-color: hsl(182, 25%, 50%);
+}
+.message--latest{
+    background-color: #ffff00;
+}
