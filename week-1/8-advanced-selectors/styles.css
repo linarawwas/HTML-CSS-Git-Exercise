@@ -21,7 +21,7 @@ margin-bottom: 0.1em;
     margin:10px;
     background-color: white;
 }
-.message:last{
+.message--unread{
     border-color: rgb(255, 238, 0);
     border: 5px 10px 0 0;
     box-shadow: 4px 4px 0 #dba944 ;
